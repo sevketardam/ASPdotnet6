@@ -1,0 +1,12 @@
+﻿@model List<CategoryViewModel>
+
+<h1>Kategori Sayfası</h1>
+<hr />
+@foreach (var item in Model)
+{
+    <div>
+        <p><b>Kategori:</b>@(item?.Name?.ToUpper())</p>
+        <p><b>Kategori Açıklaması:</b>@(item?.Description?.ToUpper())</p>
+    </div>
+    <hr />
+}

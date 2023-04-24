@@ -1,0 +1,21 @@
+﻿@model CategoryCreateInputModel
+
+<form novalidate method="post" asp-route="kategoriEkle">
+    @*Tüm Hataları tek bir liste halinde göstermemizi sağlar*@
+    <div asp-validation-summary="All"></div>
+    <input asp-for="Name" placeholder="Kategori Adı" class="form-control" />
+    @*Validasyon Hataları İçin*@
+    <span asp-validation-for="Name"></span>
+    <br />
+    <textarea class="form-control" cols="12" rows="10" placeholder="Kategori Açıklaması" asp-for="Description">
+
+    </textarea>
+    <span asp-validation-for="Description"></span>
+    <br />
+    <input class="btn btn-success" type="submit" value="Kaydet">
+</form>
+
+
+
+
+ 
