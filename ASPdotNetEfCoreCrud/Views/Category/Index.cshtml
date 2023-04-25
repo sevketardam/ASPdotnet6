@@ -1,0 +1,29 @@
+﻿@model CategoryIndexVM
+@{
+    var categoryModel = Model.Categories.FirstOrDefault();
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.Display(categoryModel?.CategoryName) </th>
+            <th>@Html.Display(categoryModel?.Description) </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Categories)
+        {
+            <tr>
+                <td>@item.CategoryName</td>
+                <td>@item.Description</td>
+                <td>
+                    <a class="btn btn-primary" asp-route="updateCategory" route-id="@item.CategoryId">Güncelle</a>
+                    <a class="btn btn-danger" asp-route="deleteCategory" route-id="@item.CategoryId">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
