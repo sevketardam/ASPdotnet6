@@ -11,11 +11,11 @@
 
         public async Task InvokeAsync(HttpContext httpContext)
         {
-            if (httpContext.Request.Path == "/Home/Privacy")
+            if (httpContext.Request.Path == "/Privacy")
             {
                 string content = "Privacy sayfasına giriş yapıldı";
 
-                await httpContext.Response.WriteAsync("Merhaba");
+                httpContext.Response.Redirect("kategori-ekle");
 
                 File.AppendAllText("log.txt", content);
             }

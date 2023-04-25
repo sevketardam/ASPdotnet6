@@ -3,4 +3,13 @@ Host => localhost:44336 Method: GET Url /Host => localhost:44336 Method: POST Ur
 Host => localhost:44336 Method: POST Url /kategori-ekle 
 Host => localhost:44336 Method: POST Url /kategori-ekle 
 Host => localhost:44336 Method: POST Url /kategori-ekle 
-Privacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldı
+Privacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıPrivacy sayfasına giriş yapıldıHost => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 
+Host => localhost:44336 Method: POST Url /submit-order 

@@ -1,8 +1,8 @@
-﻿using ASPLearning.UI.Models;
+﻿using AspdotNetEfCoreHook.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ASPLearning.UI.Controllers
+namespace AspdotNetEfCoreHook.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,11 +15,9 @@ namespace ASPLearning.UI.Controllers
 
         public IActionResult Index()
         {
-            
             return View();
         }
 
-        [HttpGet("Privacy")]
         public IActionResult Privacy()
         {
             return View();
