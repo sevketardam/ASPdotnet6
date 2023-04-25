@@ -22,7 +22,7 @@ namespace ASPLearning.UI.Controllers
         [HttpPost("submit-order",Name ="SubmitOrder")]
         public IActionResult SubmitOrder(SubmitOrderIM submit)
         {
-            orderService.SubmitOrder(submit);
+            this.orderService.SubmitOrder(submit);
 
             return Json(new {data=submit});
         }

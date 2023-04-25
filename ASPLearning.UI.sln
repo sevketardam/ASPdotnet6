@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPLearning.UI", "ASPLearning.UI\ASPLearning.UI.csproj", "{94D77A11-1518-4688-BA73-BCCD85694A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspdotNetEfCoreHook", "AspdotNetEfCoreHook\AspdotNetEfCoreHook.csproj", "{5D128501-B614-4CB4-BD81-0DB9C3192C72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPdotNetEfCoreCrud", "ASPdotNetEfCoreCrud\ASPdotNetEfCoreCrud.csproj", "{0D59F960-C9DB-4523-B1DA-B09530817D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{94D77A11-1518-4688-BA73-BCCD85694A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D77A11-1518-4688-BA73-BCCD85694A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D77A11-1518-4688-BA73-BCCD85694A89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D128501-B614-4CB4-BD81-0DB9C3192C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D128501-B614-4CB4-BD81-0DB9C3192C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D128501-B614-4CB4-BD81-0DB9C3192C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D128501-B614-4CB4-BD81-0DB9C3192C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D59F960-C9DB-4523-B1DA-B09530817D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D59F960-C9DB-4523-B1DA-B09530817D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D59F960-C9DB-4523-B1DA-B09530817D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D59F960-C9DB-4523-B1DA-B09530817D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
