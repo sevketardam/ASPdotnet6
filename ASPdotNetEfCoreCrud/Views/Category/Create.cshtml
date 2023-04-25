@@ -1,0 +1,23 @@
+﻿@using ASPdotNetEfCoreCrud.Models.IM;
+@model CreateCategoryIM
+
+@if (TempData["Mesaj"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Mesaj"]
+    </div>
+}
+
+<form method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control" asp-for="CategoryName" />
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" asp-for="Description" />
+        </div>
+        <div class="col-md-12 mt-3">
+            <input type="submit" class="btn btn-success" value="Güncelle" />
+        </div>
+    </div>
+</form>

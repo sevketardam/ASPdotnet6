@@ -1,0 +1,23 @@
+﻿@using ASPdotNetEfCoreCrud.Models.IM;
+@model UpdateCategoryIM
+@if(ViewBag.Mesaj != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Mesaj
+    </div>
+}
+
+
+<form method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control" asp-for="CategoryName" />
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" asp-for="Description"/>
+        </div>
+        <div class="col-md-12 mt-3">
+            <input type="submit" class="btn btn-warning" value="Güncelle"/>
+        </div>
+    </div>
+</form>

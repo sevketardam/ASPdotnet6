@@ -1,12 +1,15 @@
 using ASPdotNetEfCoreCrud.Entities;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
-builder.Services.AddTransient<northwindContext>();
+builder.Services.AddDbContext<northwindContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("NorthwindConn"));
+});
 
 var app = builder.Build();
 
